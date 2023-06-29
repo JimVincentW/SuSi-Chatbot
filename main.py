@@ -17,7 +17,6 @@ from langchain.schema import BaseMessage
 from llama_index import download_loader
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.document_loaders import DirectoryLoader, PyPDFLoader
-from llama_index.readers.file.tabular_parser import CSVParser, PandasCSVParser
 from langchain.chains import RetrievalQA
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 import os
