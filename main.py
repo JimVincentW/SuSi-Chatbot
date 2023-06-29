@@ -33,7 +33,6 @@ from langchain.agents import AgentType
 from langchain.prompts import BaseChatPromptTemplate, ChatMessagePromptTemplate, PromptTemplate
 from langchain.chains.conversational_retrieval.prompts import CONDENSE_QUESTION_PROMPT, QA_PROMPT
 import streamlit as st
-import os
 
 os.environ['OPENAI_API_KEY'] = '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'
 openai_api_key = os.getenv("OPENAI_API_KEY")
