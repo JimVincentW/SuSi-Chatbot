@@ -93,8 +93,8 @@ def generate_response(query, chat_history):
     return response
 
 with st.form("my_form"):
-    st.write("Frag Hector, unseren AI Kundensupport.")
-    query = st.text_input('Wie kann man dir helfen?', placeholder='Bitte gibt deine Frage hier ein.', key='initial_question')
+    st.write("Frag CanBot, unseren AI Kundensupport.")
+    query = st.text_input('', placeholder='Bitte gibt deine Frage hier ein.', key='initial_question')
     submitted = st.form_submit_button("Absenden")
     
     
