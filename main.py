@@ -39,8 +39,8 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 
-st.set_page_config(page_title='🦜🔗 Ask SuSi ')
-st.title('🦜🔗 Frag SuSi')
+st.set_page_config(page_title='🦜🔗 Ask CanBot ')
+st.title('🦜🔗 Frag CanBot')
 
 
 st.markdown(f"""
